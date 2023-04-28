@@ -135,7 +135,7 @@ namespace WebApplication1.Controllers
 
             return View(category);
         }
-
+        //change
         // POST: CategoriesTemp/Delete/5
         [HttpPost, ActionName("Delete")]
         [ValidateAntiForgeryToken]
